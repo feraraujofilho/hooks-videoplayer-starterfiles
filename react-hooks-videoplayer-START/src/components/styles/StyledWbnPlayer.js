@@ -1,12 +1,12 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 const StyledWbnPlayer = styled.div`
-  background: ${props => props.theme.bgcolor}; /* #353535; */
-  border: ${props => props.theme.border};
+  background: ${props => props.theme.bgcolor};
+  border. ${props => props.theme.border};
   max-width: 1800px;
   margin: 0 auto;
   display: -webkit-box;
-  display: -ms-flexbox;
+  display: -ms-flexbox-flex;
   display: flex;
   flex-direction: row;
   max-height: 863px;
@@ -14,8 +14,8 @@ const StyledWbnPlayer = styled.div`
 
   @media screen and (max-width: 1400px) {
     display: block;
-    max-height: 10000px;
+    max-height: 10000px
   }
-`;
+`
 
-export default StyledWbnPlayer;
+export default StyledWbnPlayer
